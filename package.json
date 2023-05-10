@@ -1,0 +1,30 @@
+{
+  "name": "namaste-react-header",
+  "version": "1.0.0",
+  "description": "basic header for episode 3 assignment of namaste React",
+  "main": "app.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nashrah01/Namaste-React-Header.git"
+  },
+  "keywords": [],
+  "author": "Nashrah Sabi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nashrah01/Namaste-React-Header/issues"
+  },
+  "homepage": "https://github.com/Nashrah01/Namaste-React-Header#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

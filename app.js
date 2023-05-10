@@ -1,5 +1,7 @@
 import React from "react";
 import ReactDOM  from "react-dom/client";
+import logo from "./images/FFlogo.png";
+import usericon from "./images/user.png";
 
 const heading = React.createElement("h1",
 { id: "heading" },
@@ -57,5 +59,25 @@ const HeadJSX =()=>(
         <h3>H3 Tag!</h3>
     </div>
 )
+//const root = ReactDOM.createRoot(document.getElementById("root"));
+//root.render(<HeadJSX/>);
+
+//------------------------------------------------------
+
+const Header = () => (
+    <>
+       <header className="header"> <div className="left"><img src ={logo}/></div>
+            <div className="center">
+                <div className="searchBar">
+                    <input type="text" className="search" placeholder="Search any restraunt or dishes...."/>
+                    <button type="submit" className="subbtn">
+                    <i class="fa fa-search"></i>
+                    </button>
+                </div>
+            </div>
+            <div className="right"><img src ={usericon} alt="FF logo"/></div>
+        </header>
+    </>
+)
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<HeadJSX/>);
+root.render(<Header/>);
