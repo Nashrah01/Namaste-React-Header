@@ -2,7 +2,6 @@
   "name": "namaste-react-header",
   "version": "1.0.0",
   "description": "basic header for episode 3 assignment of namaste React",
-  "main": "app.js",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
